@@ -11,12 +11,12 @@
 (function() {
 'use strict';
 if ($('#play_without_captchas_button').is(':visible'))
-    setTimeout(function(){ $('#play_without_captchas_button').click();},2000);
+    setTimeout(function(){ $('#play_without_captchas_button').click();},100000);
 if ($('#free_play_form_button').is(':visible'))
-    setTimeout(function(){ $('#free_play_form_button').click();},2000);
+    setTimeout(function(){ $('#free_play_form_button').click();},100000);
 if ($('.close-reveal-modal').is(':visible'))
-    setTimeout(function(){ $('.close-reveal-modal').click(); },2000);
+    setTimeout(function(){ $('.close-reveal-modal').click(); },100000);
 
-//setTimeout(reward.select,1000);
-//setInterval(reward.select,60000);
+//setTimeout(reward.select,10000);
+//setInterval(reward.select,10000);
 })();
